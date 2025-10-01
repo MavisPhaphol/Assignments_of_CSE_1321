@@ -10,21 +10,21 @@ public class Assignment2A {
         Scanner calc = new Scanner(System.in);
         //Input
         System.out.print("First Number: ");
-        Integer firstNumber = calc.nextInt();
+        int firstNumber = calc.nextInt();
         System.out.print("Second Number: ");
-        Integer secondNumber = calc.nextInt();
+        int secondNumber = calc.nextInt();
         System.out.print("Number for Modulo Operation: ");
-        Integer modulo = calc.nextInt();
+        int modulo = calc.nextInt();
 
         //Calculation
-        Integer sum = firstNumber + secondNumber;
-        Integer diff = firstNumber - secondNumber;
-        Integer product = firstNumber * secondNumber;
-        Integer quotient = firstNumber / secondNumber;
-        Integer moduSum = sum % modulo;
-        Integer moduDiff = diff % modulo;
-        Integer moduPro = product % modulo;
-        Integer moduQuot = quotient % modulo;
+        int sum = firstNumber + secondNumber;
+        int diff = firstNumber - secondNumber;
+        int product = firstNumber * secondNumber;
+        int quotient = firstNumber / secondNumber;
+        int moduSum = sum % modulo;
+        int moduDiff = diff % modulo;
+        int moduPro = product % modulo;
+        int moduQuot = quotient % modulo;
 
 
         //Output
