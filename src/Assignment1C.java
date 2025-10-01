@@ -11,13 +11,13 @@ public class Assignment1C {
         Scanner dc = new Scanner(System.in);
         //Input
         System.out.print("Enter the day (number): ");
-        Integer day = sc.nextInt();
+        int day = sc.nextInt();
         System.out.print("Enter the month (number): ");
-        Integer month = sc.nextInt();
+        int month = sc.nextInt();
         System.out.print("Enter the month (string): ");
         String month2 = dc.nextLine();
         System.out.print("Enter the year (number): ");
-        Integer year = sc.nextInt();
+        int year = sc.nextInt();
         //Output
         System.out.println("Here are some ways to represent the date: ");
         System.out.println(month + "/" + day + "/" + year + "\n" +  year + "/" + day + "/" + month +"\n" +
