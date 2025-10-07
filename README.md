@@ -1,4 +1,4 @@
-Kennesaw State University
+Mavis Phaphol - Kennesaw State University (Spring 2022)
 ----------------
 Files include:
 - CSE 1321 Assignments
